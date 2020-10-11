@@ -3,8 +3,6 @@
 
 > docker-compose run web vue create .
 
-> docker-compose run web npm run serve
-
 > access localhost 8080
 
 # install new library
