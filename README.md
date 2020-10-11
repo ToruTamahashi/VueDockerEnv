@@ -1,11 +1,13 @@
 # Project Set up
+> docker-compose build
+
 > docker-compose up -d
 
 > docker-compose run front vue create .
 
 >↑　npmを選択してください。他はyesと一番上選択でok
 
-> access localhost 8080
+> access localhost:8888
 
 # check logs
 > docker-compose logs
