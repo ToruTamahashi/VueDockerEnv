@@ -7,6 +7,10 @@
 
 >↑　npmを選択してください。他はyesと一番上選択でok
 
+> docker-compose down
+
+> docker-compose restart
+
 > access localhost:8888
 
 # check logs
@@ -19,3 +23,6 @@
 > package.jsonに追記 
 
 > docker-compose run front npm install
+
+# access container
+> docker-compose exec web sh
