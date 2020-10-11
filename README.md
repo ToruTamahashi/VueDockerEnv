@@ -25,4 +25,4 @@
 > docker-compose run front npm install
 
 # access container
-> docker-compose exec web sh
+> docker-compose exec front sh
