@@ -7,6 +7,8 @@ services:
       - 8080:8080
     volumes:
       - .:/app
+      - ./n_modules:/app/node_modules
+        #node_modulesをマウントしないように設定
     stdin_open: true
     tty: true
 
