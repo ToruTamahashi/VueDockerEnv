@@ -32,4 +32,4 @@
 
 > docker-compose run front npm install
 
-> 
+
