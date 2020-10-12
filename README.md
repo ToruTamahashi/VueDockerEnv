@@ -23,4 +23,4 @@
 > docker-compose run front npm install
 
 # access container
-> docker-compose exec front sh
+> docker-compose exec front /bin/bash
