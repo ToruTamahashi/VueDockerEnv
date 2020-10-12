@@ -2,7 +2,6 @@ version: '3'
 services:
   front:
     build: .
-    command: npm run serve
     ports:
       - 8888:8080
 
