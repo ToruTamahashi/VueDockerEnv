@@ -30,6 +30,8 @@
 # install new library
 > package.jsonに追記 
 
-> docker-compose run front npm install
+> docker-compose exec front sh
+
+> npm install
 
 
